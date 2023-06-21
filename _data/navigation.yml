@@ -25,6 +25,11 @@ header:
       # @end locale config
     url: /archive.html
 
+  
+  - title:      Projects
+    url:        /projects.html
+    key:        projects
+
   - titles:
       # @start locale config
       en      : &EN       About
@@ -50,3 +55,20 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
+
+customization:
+  - title: 建站备忘录
+    children:
+      - title: 添加新的Header及页面
+        url: /2022/10/28/Add-Header.html
+      - title: 一键复制代码
+        url: /2022/12/18/Clip-to-Copy.html
+      - title: 图床
+        url: /2023/01/31/Image-Hosting.html
+
+
+self-cultivation:
+  - title: 程序媛的自我修养
+    children:
+      - title: 如何从零开始搭建自己的博客
+        url: /2022/10/28/Add-Header.html
