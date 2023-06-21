@@ -2,12 +2,12 @@
 layout: article
 titles:
   # @start locale config
-  en      : &EN       About
+  en      : &EN       About Me
   en-GB   : *EN
   en-US   : *EN
   en-CA   : *EN
   en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
+  zh-Hans : &ZH_HANS  关于我
   zh      : *ZH_HANS
   zh-CN   : *ZH_HANS
   zh-SG   : *ZH_HANS
@@ -24,51 +24,47 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-about
+aside:
+  toc: true
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+**Hi there!**
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+My name is **Eunice Xu**, or you can call me Yiqing by my Chinese name. I'm a graphics engineer. This blog is used to record what I've learned.
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+## Education
 
-## Features
+- **Tongji University** <span style="float:right">2017.09 - 2020.06</span> \
+  MEng in Strcture Engineering 
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+- **Hefei University of Technology** <span style="float:right">2012.06 - 2016.06</span> \
+  BEng in Civil Engineering
 
-## Skins
+## Interests
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+Computer Graphics,
+Geometry Processing,
+Computer Vision, 
+Bakering
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+## Online Courses
 
-### Highlight Theme
+### edX
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+- [Computer Graphics](https://courses.edx.org/certificates/e945d191df7e474ca5eb34a8eea0fc09)
+- MITx's Statistics and Data Science MicroMasters Program
+  - [6.431x: Probability - The Science of Uncertainty and Data](https://courses.edx.org/certificates/a3aefb59a2bb475ca26bd82bd43ef415)
+  - [14.310Fx: Data Analysis in Social Science](https://courses.edx.org/certificates/5af507dff5514989841bce1a6c5d1ac7)
+  - [18.6501x: Fundamentals of Statistics](https://courses.edx.org/certificates/1783bf04e0c14829a4441dea6352d633)
+  - [6.86x: Machine Learning with Python-From Linear Models to Deep Learning](https://courses.edx.org/certificates/89370aa3297745c19c3e88a7985ee688)
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+
+### Graphics And Mixed Environment Seminar (GAMES)
+
+- [GAMES-101: Introduction to Modern Computer Graphics](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html) ([certificate](https://drive.google.com/file/d/1sFM-XCCETFKUXzpLc7QV5fH6Aa6_-oGl/view?usp=sharing))
+- [GAMES-102: Geometry Modeling and Processing](http://staff.ustc.edu.cn/~lgliu/Courses/GAMES102_2020/default.html)
+- [GAMES-202: Real-Time High Quality Rendering](https://sites.cs.ucsb.edu/~lingqi/teaching/games202.html) ([certificate](https://drive.google.com/file/d/1vTDse2jZ0vbBUEShygA8kdeu2DjF2FeS/view?usp=sharing))
+- [GAMES-103: Intro to Physics-Based Animation](http://games-cn.org/games103/) ([certificate](https://drive.google.com/file/d/1Z0DoKhcsDher6W_PLvPhazSlsAaF5x0r/view?usp=sharing))
+- [GAMES-104: Modern Game Engine-Theory and Practice](https://games104.boomingtech.com/en/)
+- [GAMES-301: Surface Parameterization](http://staff.ustc.edu.cn/~renjiec/GAMES301/index.html)
