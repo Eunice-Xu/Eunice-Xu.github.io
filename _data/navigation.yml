@@ -72,3 +72,67 @@ self-cultivation:
     children:
       - title: 如何从零开始搭建自己的博客
         url: /2022/10/28/Add-Header.html
+
+GAMES104:
+  - title: GAMES104
+    children: 
+      - title: Overview of Game Engine
+        url: /2022/03/16/GAMES104-NOTES-01.html
+      - title: Layered Architecture of Game Engine
+        url: /2022/03/24/GAMES104-NOTES-02.html
+      - title: How to Build a Game World
+        url: /2022/03/30/GAMES104-NOTES-03.html
+  - title: Rendering System
+    children: 
+      - title: Rendering on Game Engine
+        url: /2022/04/06/GAMES104-NOTES-04.html
+      - title: Lighting, Materials and Shaders
+        url: /2022/04/13/GAMES104-NOTES-05.html
+      - title: The Challenges and Fun of Rendering the Beautiful Mother Nature
+        url: /2022/04/19/GAMES104-NOTES-06.html
+      - title: Render Pipeline, Post-process and Everything
+        url: /2022/04/27/GAMES104-NOTES-07.html
+  - title: Animation System
+    children: 
+      - title: Basics of Animation Technology
+        url: /2022/05/11/GAMES104-NOTES-08.html
+      - title: Advanced Animation Technology
+        url: /2022/05/17/GAMES104-NOTES-09.html
+  - title: Physics System
+    children: 
+      - title: Basics Concepts
+        url: /2022/05/26/GAMES104-NOTES-10.html
+      - title: Applications
+        url: /2022/06/05/GAMES104-NOTES-11.html
+  - title: Misc. System
+    children: 
+      - title: Effects
+        url: /2022/06/15/GAMES104-NOTES-12.html
+  - title: Tool Chains
+    children: 
+      - title: Foundation of Tool Chains
+        url: /2022/07/06/GAMES104-NOTES-13.html
+      - title: Applications & Advanced Topic
+        url: /2022/07/08/GAMES104-NOTES-14.html
+  - title: Gameplay System
+    children: 
+      - title: Gameplay Complexity and Building Blocks
+        url: /2022/07/24/GAMES104-NOTES-15.html
+      - title: Basic Artificial Intelligence
+        url: /2022/07/26/GAMES104-NOTES-16.html
+      - title: Advanced Artificial Intelligence
+        url: /2022/07/28/GAMES104-NOTES-17.html
+  - title: Online Gaming
+    children: 
+      - title: Online Gaming Architecture Fundamentals
+        url: /2022/08/10/GAMES104-NOTES-18.html
+      - title: Online Gaming Architecture Advanced Topics
+        url: /2022/08/17/GAMES104-NOTES-19.html
+  - title: Advanced Topics
+    children: 
+      - title: Data-Oriented Programming and Job System
+        url: /2022/08/31/GAMES104-NOTES-20.html
+      - title: Dynamic Global Illumination and Lumen
+        url: /2022/10/09/GAMES104-NOTES-21.html
+      - title: GPU-Driven Geometry Pipeline-Nanite
+        url: /2022/12/12/GAMES104-NOTES-22.html
