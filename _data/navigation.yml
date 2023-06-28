@@ -72,6 +72,8 @@ self-cultivation:
     children:
       - title: 如何从零开始搭建自己的博客
         url: /2022/10/28/Add-Header.html
+      - title: Code Review那些事
+        url: /2022/02/13/Code Review那些事.html
 
 GAMES104:
   - title: GAMES104
