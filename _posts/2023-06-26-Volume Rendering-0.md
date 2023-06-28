@@ -42,13 +42,13 @@ PolyVox: PolyVox 是一个开源的 C++ 体素库，用于创建和操作体素�
 
 UE中一般用于实现一些粒子效果，您可以查看他们的源码链接
 Volumetric Fog（体积雾）：UE提供了内置的体积雾特效，可以通过添加Volumetric Fog组件来创建逼真的雾效果。体积雾可以用于模拟大气效果、烟雾、云层等。
-[UE中的体积雾](https://github.com/EpicGames/UnrealEngine/blob/463443057fb97f1af0d2951705324ce8818d2a55/Engine/Source/Runtime/Renderer/Private/VolumetricFog.cpp#L2)
-Volumetric Light（体积光）：通过使用Volumetric Lightmaps（体积光照片）或Volumetric Lightmaps（体积光照片），可以在UE中实现逼真的体积光效果。体积光可以用于模拟阳光透射、室内照明效果等。
-[UE中的体积光]()
-Volumetric Clouds（体积云）：通过使用UE的特效工具和材质系统，可以创建逼真的体积云效果。体积云可以用于模拟动态云层、天空效果等。
-[UE中的体积云]()
-Material Volumetric（材质体积）：UE的材质系统支持体积纹理（Volume Texture）和体积材质（Volume Material），这使得开发者可以在材质中实现自定义的体积效果，如体积火焰、流体等。
-[UE中的材质体积]()
+[UE中的体积雾](https://github.com/EpicGames/UnrealEngine/blob/463443057fb97f1af0d2951705324ce8818d2a55/Engine/Source/Runtime/Renderer/Private/VolumetricFog.cpp#L2)  
+Volumetric Light（体积光）：通过使用Volumetric Lightmaps（体积光照片）或Volumetric Lightmaps（体积光照片），可以在UE中实现逼真的体积光效果。体积光可以用于模拟阳光透射、室内照明效果等。  
+[UE中的体积光]()  
+Volumetric Clouds（体积云）：通过使用UE的特效工具和材质系统，可以创建逼真的体积云效果。体积云可以用于模拟动态云层、天空效果等。  
+[UE中的体积云]()  
+Material Volumetric（材质体积）：UE的材质系统支持体积纹理（Volume Texture）和体积材质（Volume Material），这使得开发者可以在材质中实现自定义的体积效果，如体积火焰、流体等。  
+[UE中的材质体积]()  
 
 一个为ue体渲染做的插件
 [体渲染插件](https://github.com/Phyronnaz/VoxelPlugin)
@@ -67,8 +67,7 @@ Material Volumetric（材质体积）：UE的材质系统支持体积纹理（Vo
 以上书籍的[下载链接]().
 
 ## 文章资料
-xxx这个系列的书籍内部xxxx  
-
+《Gpu Gems》《Gpu Pro》《Gpu Zen》系列是英伟达发布的一系列和高阶渲染技术与GPU实现的书籍，其中也有大量的体素渲染相关内容。
 
 Volumetric Lighting，Fog，Atmospheric Scattering：  
 **《Gpu Gems2》Accurate Atmospheric Scattering**：精确的大气散射效果，结算大气散射方程（Nishita），Rayleigh Scattering，Mie Scattering，最后增加HDR。
