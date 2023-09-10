@@ -139,6 +139,12 @@ GAMES104:
       - title: GPU-Driven Geometry Pipeline-Nanite
         url: /2022/12/12/GAMES104-NOTES-22.html
 
+GAMES106:
+  - title: Overview
+    children: 
+      - title: 现代图形绘制流水线导论
+        url: /2023/04/10/GAMES106-0.html
+
 
 VolumeRendering:
   - title: 体渲染
