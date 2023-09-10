@@ -144,6 +144,38 @@ GAMES106:
     children: 
       - title: 现代图形绘制流水线导论
         url: /2023/04/10/GAMES106-0.html
+  - title: Vulkan
+    children: 
+      - title: 图形绘制流水线的基本原理与实践(一)
+        url: /2050/04/10/GAMES106-0.html
+      - title: 图形绘制流水线的基本原理与实践(二)
+        url: /2050/04/10/GAMES106-0.html
+      - title: 图形绘制流水线的基本原理与实践(三)
+        url: /2050/04/10/GAMES106-0.html
+  - title: 工程化相关
+    children: 
+      - title: 多概率着色
+        url: /2050/04/10/GAMES106-0.html
+      - title: 性能分析
+        url: /2050/04/10/GAMES106-0.html
+      - title: 着色器优化
+        url: /2050/04/10/GAMES106-0.html
+      - title: 流水线LOD技术
+        url: /2050/04/10/GAMES106-0.html
+  - title: 几何处理与模型减面
+    children: 
+      - title: 引言
+        url: /2050/04/10/GAMES106-0.html
+      - title: 保纹理的模型减面
+        url: /2050/04/10/GAMES106-0.html
+      - title: 不保纹理的减面
+        url: /2050/04/10/GAMES106-0.html
+      - title: 纹理生成与压缩
+        url: /2050/04/10/GAMES106-0.html
+  - title: 新进展
+    children: 
+      - title: 流水线新进展
+        url: /2050/04/10/GAMES106-0.html
 
 
 VolumeRendering:

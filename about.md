@@ -27,10 +27,46 @@ key: page-about
 aside:
   toc: true
 ---
+<br />
+<br />
+<br />
+<br />
+**您好!**
+
+我是**徐夷青**.<br />
+我是一名专业的图形工程师，也是一名业余的烘焙师。这里是我的个人博客，我将会在这里记录在工作和生活中所学习到的一切内容。
+<br />
+<br />
+您可以通过下方的邮件来与我联系.^ ^
+
+## 教育经历
+
+- **同济大学** <span style="float:right">2017.09 - 2020.06</span> \
+  工学硕士（高耸结构）
+
+- **合肥工业大学** <span style="float:right">2012.06 - 2016.06</span> \
+  工学学士（土木工程）
+
+## 兴趣爱好
+
+- **计算机图形学**
+- **几何处理**
+- **计算机视觉**
+- **烘焙**
+<br />
+<br />
+<br />
+<br />
+
+*******
+<br />
+<br />
+<br />
+<br />
 
 **Hi there!**
 
-My name is **Eunice Xu**, or you can call me Yiqing(夷青), which is my Chinese name.<br />
+My name is **Eunice Xu**, or just call me by my Chinese name **Yiqing**.<br />
 I am a professional graphics engineer and an amateur baker. This blog is used to record what I've learned.
 <br />
 <br />
@@ -50,6 +86,3 @@ Feel free to contact me with my email.^ ^
 - **Geometry Processing**
 - **Computer Vision**
 - **Bakering**
-
-
-## Online Courses
