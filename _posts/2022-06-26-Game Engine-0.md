@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 游戏引擎-0 游戏引擎概述和资料归档
-tags: ["ComputerGraphics", "Game Engine"]
+tags: ["Computer Graphics", "Game Engine"]
 key: 
 aside:
   toc: true

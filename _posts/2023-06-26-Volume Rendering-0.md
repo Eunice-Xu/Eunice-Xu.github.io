@@ -1,7 +1,7 @@
 ---
 layout: article
-title: 体渲染-0 体渲染概述和资料归档
-tags: ["ComputerGraphics", "Volume Rendering"]
+title: 体渲染概述和资料归档
+tags: ["Computer Graphics", "Volume Rendering"]
 key: 
 aside:
   toc: true
@@ -12,51 +12,42 @@ sidebar:
 
 
 
-> 这个系列的文章介绍了和体渲染相关的内容。本文对体渲染进行了一定程度的概述，同时记录一些可参考的学习资料。本文长期更新。
+> 这个系列的文章介绍和体渲染相关的内容。本文对体渲染进行了一定程度的概述，同时记录一些可参考的学习资料。文章中存在一些对其他文章的引用，具体见参考链接。
 
 
 # 概述
-基于网格（mesh）的渲染无疑占据了图形渲染领域的大头，体渲染无论是工业界的使用份额还是讲解和学习的资料，都相对较少。最近的工作中在研究体数据，所以本文记录一些目前为止了解到的体渲染相关资料，以供后续查找。
+一般来说，基于网格（mesh）的渲染相较于体渲染在图形渲染领域占据更大的比重。由于最近的工作中开始研究体数据，所以本文记录一些目前为止了解到的体渲染相关资料，以供后续查找。
 
 ## 游戏中的体渲染
-游戏中使用体素渲染器，一般是处于某种美术风格的偏好或是玩法的需求。最出名的体素游戏是：
+在游戏中使用体素渲染器，一般是处于某种美术风格的偏好或是玩法的需求。
 - 我的世界，有一个开源的java版本，不过遗憾的是体素引擎应该是没有开源的。
-
-一个以java为开发语言的开源体素游戏
-- [Terasology](https://github.com/MovingBlocks/Terasology)
-
-
-PolyVox: PolyVox 是一个开源的 C++ 体素库，用于创建和操作体素数据。它提供了高性能的体素操作算法，并支持体素渲染和碰撞检测。PolyVox 可以用于创建体素化的游戏世界、医学可视化和科学模拟等应用。
-- [PolyVox](https://bitbucket.org/volumesoffun/polyvox/) 以及他的[主页](http://www.volumesoffun.com/polyvox-about/)
+<br />
+<br />
+- [Terasology](https://github.com/MovingBlocks/Terasology)：一个以java为开发语言的开源体素游戏
+<br />
+<br />
+- [PolyVox](https://bitbucket.org/volumesoffun/polyvox/) 以及他的[主页](http://www.volumesoffun.com/polyvox-about/)：PolyVox 是一个开源的 C++ 体素库，用于创建和操作体素数据。它提供了高性能的体素操作算法，并支持体素渲染和碰撞检测。PolyVox 可以用于创建体素化的游戏世界、医学可视化和科学模拟等应用。
 
 
 
 ## 医疗影像中的体渲染
-体渲染的最传统使用领域就是医疗影像的渲染。通过体素对病人内部组织结构的展示来判断病情，与体素渲染的特性天生契合。
+（TBD）
 
-## 游戏引擎中的体渲染
+## 渲染引擎中的体渲染
 游戏引擎中往往利用体渲染来实现各种云、烟、雾等粒子效果。
-- ThreeJS中的体素渲染 https://threejs.org/examples/?q=perlin#webgl2_volume_perlin
+- [ThreeJS中的体素渲染](https://threejs.org/examples/?q=perlin#webgl2_volume_perlin)
 
-
-
-UE中一般用于实现一些粒子效果，您可以查看他们的源码链接
-Volumetric Fog（体积雾）：UE提供了内置的体积雾特效，可以通过添加Volumetric Fog组件来创建逼真的雾效果。体积雾可以用于模拟大气效果、烟雾、云层等。
-[UE中的体积雾](https://github.com/EpicGames/UnrealEngine/blob/463443057fb97f1af0d2951705324ce8818d2a55/Engine/Source/Runtime/Renderer/Private/VolumetricFog.cpp#L2)  
-Volumetric Light（体积光）：通过使用Volumetric Lightmaps（体积光照片）或Volumetric Lightmaps（体积光照片），可以在UE中实现逼真的体积光效果。体积光可以用于模拟阳光透射、室内照明效果等。  
-[UE中的体积光]()  
-Volumetric Clouds（体积云）：通过使用UE的特效工具和材质系统，可以创建逼真的体积云效果。体积云可以用于模拟动态云层、天空效果等。  
-[UE中的体积云]()  
-Material Volumetric（材质体积）：UE的材质系统支持体积纹理（Volume Texture）和体积材质（Volume Material），这使得开发者可以在材质中实现自定义的体积效果，如体积火焰、流体等。  
-[UE中的材质体积]()  
-
-一个为ue体渲染做的插件
-[体渲染插件](https://github.com/Phyronnaz/VoxelPlugin)
+- [UE中的体积雾](https://github.com/EpicGames/UnrealEngine/blob/463443057fb97f1af0d2951705324ce8818d2a55/Engine/Source/Runtime/Renderer/Private/VolumetricFog.cpp#L2):Volumetric Fog（体积雾）：UE提供了内置的体积雾特效，可以通过添加Volumetric Fog组件来创建逼真的雾效果。体积雾可以用于模拟大气效果、烟雾、云层等。   
+- [UE中的体积光]():Volumetric Light（体积光）：通过使用Volumetric Lightmaps（体积光照片）或Volumetric Lightmaps（体积光照片），可以在UE中实现逼真的体积光效果。体积光可以用于模拟阳光透射、室内照明效果等。   
+- [UE中的体积云]():Volumetric Clouds（体积云）：通过使用UE的特效工具和材质系统，可以创建逼真的体积云效果。体积云可以用于模拟动态云层、天空效果等。     
+- [UE中的材质体积]():Material Volumetric（材质体积）：UE的材质系统支持体积纹理（Volume Texture）和体积材质（Volume Material），这使得开发者可以在材质中实现自定义的体积效果，如体积火焰、流体等。   
+[体渲染插件](https://github.com/Phyronnaz/VoxelPlugin):一个为ue体渲染做的插件
 
 
 # 资料
 
 ## 视频资料
+（TBD）
 
 ## 书籍资料
 
